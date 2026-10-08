@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "andean-institute-public-ai.public-spanish-llm-eval"
+name: "Public-sector Spanish evaluation suite"
+type: "skill"
+version: "1.0.0"
+summary: "Benchmark and scripts that test language models on public-sector Spanish: procedures, forms and legal notices."
+description: "Three thousand graded tasks drawn from public procedures across the region, with scripts to run them against any model and compare results."
+publisher:
+  environment: "andean-institute-public-ai"
+  body: "Andean Institute for Public AI"
+languages: ["es"]
+license: "CC-BY-4.0"
+interfaces:
+  protocol: "cli"
+links:
+  repo: "https://github.com/govness-demo/public-spanish-llm-eval"
+domains: ["ai-governance", "public-administration"]
